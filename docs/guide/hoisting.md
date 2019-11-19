@@ -91,7 +91,7 @@ executionContextObj = {
 }
 ...
 }//首先在全局执行环境中声明了变量a以及函数f,此时a虽然被声明,但是尚未赋值
-x = 1;
+a = 1;
 function f() {
     executionContextObj {
     'scopeChain': { ... },
